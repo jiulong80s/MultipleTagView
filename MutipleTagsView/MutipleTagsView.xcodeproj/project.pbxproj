@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9518D6191F273FAB003CB48B /* MultipleTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9518D6181F273FAB003CB48B /* MultipleTagsView.m */; };
 		9532DE5E1F270E36007F9C70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9532DE5D1F270E36007F9C70 /* main.m */; };
 		9532DE611F270E36007F9C70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9532DE601F270E36007F9C70 /* AppDelegate.m */; };
 		9532DE641F270E36007F9C70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9532DE631F270E36007F9C70 /* ViewController.m */; };
 		9532DE671F270E36007F9C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9532DE651F270E36007F9C70 /* Main.storyboard */; };
 		9532DE691F270E36007F9C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9532DE681F270E36007F9C70 /* Assets.xcassets */; };
 		9532DE6C1F270E36007F9C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9532DE6A1F270E36007F9C70 /* LaunchScreen.storyboard */; };
-		9532DE791F271406007F9C70 /* MultipleTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9532DE781F271406007F9C70 /* MultipleTagsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9518D6171F273FAB003CB48B /* MultipleTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleTagsView.h; sourceTree = "<group>"; };
+		9518D6181F273FAB003CB48B /* MultipleTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleTagsView.m; sourceTree = "<group>"; };
 		9532DE591F270E36007F9C70 /* MutipleTagsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutipleTagsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9532DE5D1F270E36007F9C70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9532DE5F1F270E36007F9C70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		9532DE681F270E36007F9C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9532DE6B1F270E36007F9C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9532DE6D1F270E36007F9C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9532DE771F271406007F9C70 /* MultipleTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleTagsView.h; sourceTree = "<group>"; };
-		9532DE781F271406007F9C70 /* MultipleTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleTagsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9518D6161F273FAB003CB48B /* MultipleTagsView */ = {
+			isa = PBXGroup;
+			children = (
+				9518D6171F273FAB003CB48B /* MultipleTagsView.h */,
+				9518D6181F273FAB003CB48B /* MultipleTagsView.m */,
+			);
+			name = MultipleTagsView;
+			path = ../../lib/MultipleTagsView;
+			sourceTree = "<group>";
+		};
 		9532DE501F270E36007F9C70 = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +71,7 @@
 		9532DE5B1F270E36007F9C70 /* MutipleTagsView */ = {
 			isa = PBXGroup;
 			children = (
-				9532DE761F271406007F9C70 /* MultipleTagsView */,
+				9518D6161F273FAB003CB48B /* MultipleTagsView */,
 				9532DE5F1F270E36007F9C70 /* AppDelegate.h */,
 				9532DE601F270E36007F9C70 /* AppDelegate.m */,
 				9532DE621F270E36007F9C70 /* ViewController.h */,
@@ -81,15 +91,6 @@
 				9532DE5D1F270E36007F9C70 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9532DE761F271406007F9C70 /* MultipleTagsView */ = {
-			isa = PBXGroup;
-			children = (
-				9532DE771F271406007F9C70 /* MultipleTagsView.h */,
-				9532DE781F271406007F9C70 /* MultipleTagsView.m */,
-			);
-			path = MultipleTagsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +168,7 @@
 				9532DE641F270E36007F9C70 /* ViewController.m in Sources */,
 				9532DE611F270E36007F9C70 /* AppDelegate.m in Sources */,
 				9532DE5E1F270E36007F9C70 /* main.m in Sources */,
-				9532DE791F271406007F9C70 /* MultipleTagsView.m in Sources */,
+				9518D6191F273FAB003CB48B /* MultipleTagsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +329,7 @@
 				9532DE721F270E36007F9C70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
