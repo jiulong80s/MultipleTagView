@@ -4,7 +4,7 @@ Multi-row columns of multiple button views.
 1. Specify a fixed number of columns to be allocated according to the view width (固定显示列数，tag的宽度将根据MultipleTagsView的宽度均分)
 2. Do not specify the number of columns, and the length of the title of the button will automatically match the width.(不指定列数，tag的宽度根据它的title自适配)
 
-效果图：![效果图](http://chuantu.biz/t5/149/1500972349x1001167534.png "效果图")
+效果图：![效果图](http://chuantu.biz/t5/149/1500977361x2728329173.png "效果图")
 
 ```
 // 微信：627589430 email:zhoujiulong86@163.com
