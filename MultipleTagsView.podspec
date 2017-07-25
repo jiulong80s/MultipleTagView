@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/jiulong80s/MultipleTagView"
   s.screenshots  = "http://chuantu.biz/t5/149/1500972349x1001167534.png"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }  
-  s.author       = { "jiulong.zhou" => "jiulong.zhou@rograndec.com" }
+  s.author       = { "jiulong.zhou" => "zhoujiulong86@163.com" }
   s.platform     = :ios
   s.requires_arc = true
   s.source       = { :git => "https://github.com/jiulong80s/MultipleTagView.git", :tag => s.version }
